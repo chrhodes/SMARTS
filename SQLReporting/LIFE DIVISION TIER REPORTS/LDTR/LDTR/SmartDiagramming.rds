@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>SmartDiagramming</Name>
+  <DataSourceID>f7098c63-ebf0-4000-8212-5b6097dddc69</DataSourceID>
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>data source=CORPDBB01A\MISCDBCORP;initial catalog=SmartDiagramming</ConnectString>
+  </ConnectionProperties>
+</RptDataSource>

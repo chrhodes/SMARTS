@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/PLMembershipWS/PLMembershipWS" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/PLMembershipWS/PLMembershipWS" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/PLMembershipWS/PLMembershipWS">
+      <s:element name="DPAPIEncryptMachine">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DPAPIEncryptMachineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DPAPIEncryptMachineResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DPAPIDecryptMachine">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DPAPIDecryptMachineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DPAPIDecryptMachineResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DPAPIEncryptUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DPAPIEncryptUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DPAPIEncryptUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DPAPIDecryptUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DPAPIDecryptUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DPAPIDecryptUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProtectedResource">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="resourceName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProtectedResourceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProtectedResourceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserasXmlString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="filter" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="properties" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserasXmlStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserasXmlStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserInGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="groupName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsUserInGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsUserInGroupResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserListForGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="groupId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UserListForGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserListForGroupResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GroupListForUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GroupListForUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GroupListForUserResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DoesUserExist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DoesUserExistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DoesUserExistResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerifyPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userPassword" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerifyPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="VerifyPasswordResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAttributeArray">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="attributeName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAttributeArrayResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAttributeArrayResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAttribute">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="attributeName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAttributeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAttributeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEncryptedString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="clearText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetEncryptedStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetEncryptedStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDecryptedString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="encryptedText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDecryptedStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDecryptedStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlainEncryptedString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="clearText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlainEncryptedStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPlainEncryptedStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlainDecryptedString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="encryptedText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPlainDecryptedStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPlainDecryptedStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUsersAsXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FilterText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PropertyNames" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUsersAsXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUsersAsXMLResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserGUID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserGUIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserGUIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserDataForGroup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GroupID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUserDataForGroupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUserDataForGroupResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GroupList">
+        <s:complexType />
+      </s:element>
+      <s:element name="GroupListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GroupListResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="DPAPIEncryptMachineSoapIn">
+    <wsdl:part name="parameters" element="tns:DPAPIEncryptMachine" />
+  </wsdl:message>
+  <wsdl:message name="DPAPIEncryptMachineSoapOut">
+    <wsdl:part name="parameters" element="tns:DPAPIEncryptMachineResponse" />
+  </wsdl:message>
+  <wsdl:message name="DPAPIDecryptMachineSoapIn">
+    <wsdl:part name="parameters" element="tns:DPAPIDecryptMachine" />
+  </wsdl:message>
+  <wsdl:message name="DPAPIDecryptMachineSoapOut">
+    <wsdl:part name="parameters" element="tns:DPAPIDecryptMachineResponse" />
+  </wsdl:message>
+  <wsdl:message name="DPAPIEncryptUserSoapIn">
+    <wsdl:part name="parameters" element="tns:DPAPIEncryptUser" />
+  </wsdl:message>
+  <wsdl:message name="DPAPIEncryptUserSoapOut">
+    <wsdl:part name="parameters" element="tns:DPAPIEncryptUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="DPAPIDecryptUserSoapIn">
+    <wsdl:part name="parameters" element="tns:DPAPIDecryptUser" />
+  </wsdl:message>
+  <wsdl:message name="DPAPIDecryptUserSoapOut">
+    <wsdl:part name="parameters" element="tns:DPAPIDecryptUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProtectedResourceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProtectedResource" />
+  </wsdl:message>
+  <wsdl:message name="GetProtectedResourceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProtectedResourceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserasXmlStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserasXmlString" />
+  </wsdl:message>
+  <wsdl:message name="GetUserasXmlStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserasXmlStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsUserInGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:IsUserInGroup" />
+  </wsdl:message>
+  <wsdl:message name="IsUserInGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:IsUserInGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="UserListForGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:UserListForGroup" />
+  </wsdl:message>
+  <wsdl:message name="UserListForGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:UserListForGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="GroupListForUserSoapIn">
+    <wsdl:part name="parameters" element="tns:GroupListForUser" />
+  </wsdl:message>
+  <wsdl:message name="GroupListForUserSoapOut">
+    <wsdl:part name="parameters" element="tns:GroupListForUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="DoesUserExistSoapIn">
+    <wsdl:part name="parameters" element="tns:DoesUserExist" />
+  </wsdl:message>
+  <wsdl:message name="DoesUserExistSoapOut">
+    <wsdl:part name="parameters" element="tns:DoesUserExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerifyPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:VerifyPassword" />
+  </wsdl:message>
+  <wsdl:message name="VerifyPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:VerifyPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAttributeArraySoapIn">
+    <wsdl:part name="parameters" element="tns:GetAttributeArray" />
+  </wsdl:message>
+  <wsdl:message name="GetAttributeArraySoapOut">
+    <wsdl:part name="parameters" element="tns:GetAttributeArrayResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAttributeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAttribute" />
+  </wsdl:message>
+  <wsdl:message name="GetAttributeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAttributeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetEncryptedStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetEncryptedString" />
+  </wsdl:message>
+  <wsdl:message name="GetEncryptedStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetEncryptedStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDecryptedStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDecryptedString" />
+  </wsdl:message>
+  <wsdl:message name="GetDecryptedStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDecryptedStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlainEncryptedStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlainEncryptedString" />
+  </wsdl:message>
+  <wsdl:message name="GetPlainEncryptedStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlainEncryptedStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPlainDecryptedStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPlainDecryptedString" />
+  </wsdl:message>
+  <wsdl:message name="GetPlainDecryptedStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPlainDecryptedStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUsersAsXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUsersAsXML" />
+  </wsdl:message>
+  <wsdl:message name="GetUsersAsXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUsersAsXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserGUIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserGUID" />
+  </wsdl:message>
+  <wsdl:message name="GetUserGUIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserGUIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDataForGroupSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUserDataForGroup" />
+  </wsdl:message>
+  <wsdl:message name="GetUserDataForGroupSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUserDataForGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="GroupListSoapIn">
+    <wsdl:part name="parameters" element="tns:GroupList" />
+  </wsdl:message>
+  <wsdl:message name="GroupListSoapOut">
+    <wsdl:part name="parameters" element="tns:GroupListResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PLMembershipWSSoap">
+    <wsdl:operation name="DPAPIEncryptMachine">
+      <wsdl:input message="tns:DPAPIEncryptMachineSoapIn" />
+      <wsdl:output message="tns:DPAPIEncryptMachineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DPAPIDecryptMachine">
+      <wsdl:input message="tns:DPAPIDecryptMachineSoapIn" />
+      <wsdl:output message="tns:DPAPIDecryptMachineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DPAPIEncryptUser">
+      <wsdl:input message="tns:DPAPIEncryptUserSoapIn" />
+      <wsdl:output message="tns:DPAPIEncryptUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DPAPIDecryptUser">
+      <wsdl:input message="tns:DPAPIDecryptUserSoapIn" />
+      <wsdl:output message="tns:DPAPIDecryptUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProtectedResource">
+      <wsdl:input message="tns:GetProtectedResourceSoapIn" />
+      <wsdl:output message="tns:GetProtectedResourceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserasXmlString">
+      <wsdl:input message="tns:GetUserasXmlStringSoapIn" />
+      <wsdl:output message="tns:GetUserasXmlStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsUserInGroup">
+      <wsdl:input message="tns:IsUserInGroupSoapIn" />
+      <wsdl:output message="tns:IsUserInGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UserListForGroup">
+      <wsdl:input message="tns:UserListForGroupSoapIn" />
+      <wsdl:output message="tns:UserListForGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GroupListForUser">
+      <wsdl:input message="tns:GroupListForUserSoapIn" />
+      <wsdl:output message="tns:GroupListForUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DoesUserExist">
+      <wsdl:input message="tns:DoesUserExistSoapIn" />
+      <wsdl:output message="tns:DoesUserExistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPassword">
+      <wsdl:input message="tns:VerifyPasswordSoapIn" />
+      <wsdl:output message="tns:VerifyPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAttributeArray">
+      <wsdl:input message="tns:GetAttributeArraySoapIn" />
+      <wsdl:output message="tns:GetAttributeArraySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAttribute">
+      <wsdl:input message="tns:GetAttributeSoapIn" />
+      <wsdl:output message="tns:GetAttributeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetEncryptedString">
+      <wsdl:input message="tns:GetEncryptedStringSoapIn" />
+      <wsdl:output message="tns:GetEncryptedStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDecryptedString">
+      <wsdl:input message="tns:GetDecryptedStringSoapIn" />
+      <wsdl:output message="tns:GetDecryptedStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlainEncryptedString">
+      <wsdl:input message="tns:GetPlainEncryptedStringSoapIn" />
+      <wsdl:output message="tns:GetPlainEncryptedStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPlainDecryptedString">
+      <wsdl:input message="tns:GetPlainDecryptedStringSoapIn" />
+      <wsdl:output message="tns:GetPlainDecryptedStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersAsXML">
+      <wsdl:input message="tns:GetUsersAsXMLSoapIn" />
+      <wsdl:output message="tns:GetUsersAsXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserGUID">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Returns the user's unique identifier.</documentation>
+      <wsdl:input message="tns:GetUserGUIDSoapIn" />
+      <wsdl:output message="tns:GetUserGUIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDataForGroup">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Returns an XML Document containing user properties for all users in the specified group.</documentation>
+      <wsdl:input message="tns:GetUserDataForGroupSoapIn" />
+      <wsdl:output message="tns:GetUserDataForGroupSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GroupList">
+      <wsdl:input message="tns:GroupListSoapIn" />
+      <wsdl:output message="tns:GroupListSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PLMembershipWSSoap" type="tns:PLMembershipWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="DPAPIEncryptMachine">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/DPAPIEncryptMachine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DPAPIDecryptMachine">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/DPAPIDecryptMachine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DPAPIEncryptUser">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/DPAPIEncryptUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DPAPIDecryptUser">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/DPAPIDecryptUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProtectedResource">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetProtectedResource" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserasXmlString">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetUserasXmlString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsUserInGroup">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/IsUserInGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserListForGroup">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/UserListForGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GroupListForUser">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GroupListForUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DoesUserExist">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/DoesUserExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyPassword">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/VerifyPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAttributeArray">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetAttributeArray" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAttribute">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetAttribute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetEncryptedString">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetEncryptedString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDecryptedString">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetDecryptedString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlainEncryptedString">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetPlainEncryptedString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPlainDecryptedString">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetPlainDecryptedString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUsersAsXML">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetUsersAsXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserGUID">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetUserGUID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUserDataForGroup">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GetUserDataForGroup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GroupList">
+      <soap:operation soapAction="http://tempuri.org/PLMembershipWS/PLMembershipWS/GroupList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PLMembershipWS">
+    <wsdl:port name="PLMembershipWSSoap" binding="tns:PLMembershipWSSoap">
+      <soap:address location="http://kspiller601/PLMembershipWS/plmembershipws.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

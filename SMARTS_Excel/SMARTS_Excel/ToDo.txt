@@ -1,0 +1,2 @@
+Should logging be a separate action/object or embedded in Item/Shape?  In other words would Item.Create log or would
+you call a separate object to log?

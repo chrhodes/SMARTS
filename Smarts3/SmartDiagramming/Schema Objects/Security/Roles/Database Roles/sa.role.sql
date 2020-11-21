@@ -1,0 +1,3 @@
+﻿CREATE ROLE [sa]
+    AUTHORIZATION [dbo];
+

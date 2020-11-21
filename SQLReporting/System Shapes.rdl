@@ -1,0 +1,524 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <RightMargin>1in</RightMargin>
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox1">
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <FontFamily>Times New Roman</FontFamily>
+          <BackgroundColor>LightGrey</BackgroundColor>
+          <BorderWidth>
+            <Bottom>3pt</Bottom>
+            <Top>3pt</Top>
+          </BorderWidth>
+          <BorderColor>
+            <Bottom>DarkBlue</Bottom>
+            <Top>DarkBlue</Top>
+          </BorderColor>
+          <BorderStyle>
+            <Bottom>Solid</Bottom>
+            <Top>Solid</Top>
+          </BorderStyle>
+          <FontSize>18pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <Color>DarkBlue</Color>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingRight>2pt</PaddingRight>
+          <FontWeight>700</FontWeight>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Height>0.33in</Height>
+        <Width>11.25in</Width>
+        <CanGrow>true</CanGrow>
+        <Value>System Shapes</Value>
+      </Textbox>
+      <Table Name="table1">
+        <Style>
+          <BorderWidth>
+            <Top>3pt</Top>
+          </BorderWidth>
+          <BorderColor>
+            <Top>DarkBlue</Top>
+          </BorderColor>
+          <BorderStyle>
+            <Top>Solid</Top>
+          </BorderStyle>
+        </Style>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <Height>0.24in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox2">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>13</ZIndex>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>System Name</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox3">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>12</ZIndex>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>System IT Area</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox4">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>11</ZIndex>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>System Technical Lead</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox5">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>10</ZIndex>
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Object Name</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>9</ZIndex>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Object Type</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Object IT Area</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox8">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <rd:DefaultName>textbox8</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Object Technical Lead</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+          <RepeatOnNewPage>true</RepeatOnNewPage>
+        </Header>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Height>0.22in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="System_Name">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <rd:DefaultName>System_Name</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!System_Name.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="System_IT_Area">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <rd:DefaultName>System_IT_Area</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!System_IT_Area.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="System_Technical_Lead">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <rd:DefaultName>System_Technical_Lead</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!System_Technical_Lead.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Object_Name">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <rd:DefaultName>Object_Name</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Object_Name.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Object_Type">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <rd:DefaultName>Object_Type</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Object_Type.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Object_IT_Area">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <rd:DefaultName>Object_IT_Area</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Object_IT_Area.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Object_Technical_Lead">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <rd:DefaultName>Object_Technical_Lead</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Object_Technical_Lead.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <DataSetName>SmartDiagramming</DataSetName>
+        <Top>0.33in</Top>
+        <Width>11.25in</Width>
+        <TableColumns>
+          <TableColumn>
+            <Width>2in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.25in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.75in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.25in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.625in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.375in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Style />
+    <Height>0.79in</Height>
+  </Body>
+  <TopMargin>1in</TopMargin>
+  <DataSources>
+    <DataSource Name="SmartDiagramming">
+      <rd:DataSourceID>ae5b6e29-034a-418d-9b13-214e811f2bd1</rd:DataSourceID>
+      <DataSourceReference>SmartDiagramming</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <Width>11.875in</Width>
+  <DataSets>
+    <DataSet Name="SmartDiagramming">
+      <Fields>
+        <Field Name="System_Name">
+          <DataField>System Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Name">
+          <DataField>Object Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System_IT_Area">
+          <DataField>System IT Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System_Technical_Lead">
+          <DataField>System Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Type">
+          <DataField>Object Type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_IT_Area">
+          <DataField>Object IT Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Technical_Lead">
+          <DataField>Object Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SmartDiagramming</DataSourceName>
+        <CommandText>SELECT DISTINCT 
+                      vwSystemLevel.shapecontainer_name AS [System Name], vwSystemLevel.shapecontained_name AS [Object Name], 
+                      AV2.AttributeValue_Value AS [System IT Area], AV1.AttributeValue_Value AS [System Technical Lead], 
+                      vwSystemLevel.shapecontained_type AS [Object Type], AV4.AttributeValue_Value AS [Object IT Area], 
+                      AV3.AttributeValue_Value AS [Object Technical Lead]
+FROM         vwSystemLevel LEFT OUTER JOIN
+                      AttributeValue AV1 ON vwSystemLevel.shapecontainer_id = AV1.SD_ID AND AV1.SDTable_ID = 4 AND 
+                      AV1.SD_ID = vwSystemLevel.shapecontainer_id AND AV1.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontainer_id) AND Attribute_ID = 39) LEFT OUTER JOIN
+                      AttributeValue AV2 ON vwSystemLevel.shapecontainer_id = AV2.SD_ID AND AV2.SDTable_ID = 4 AND 
+                      AV2.SD_ID = vwSystemLevel.shapecontainer_id AND AV2.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontainer_id) AND Attribute_ID = 3) LEFT OUTER JOIN
+                      AttributeValue AV3 ON vwSystemLevel.shapecontained_id = AV3.SD_ID AND AV3.SDTable_ID = 4 AND 
+                      AV3.SD_ID = vwSystemLevel.shapecontained_id AND AV3.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontained_id) AND Attribute_ID = 39) LEFT OUTER JOIN
+                      AttributeValue AV4 ON vwSystemLevel.shapecontained_id = AV4.SD_ID AND AV4.SDTable_ID = 4 AND 
+                      AV4.SD_ID = vwSystemLevel.shapecontained_id AND AV4.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontained_id) AND Attribute_ID = 3)</CommandText>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>1in</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:ReportID>23588406-c7cd-49fa-819b-bab45c239e34</rd:ReportID>
+  <BottomMargin>1in</BottomMargin>
+  <Language>en-US</Language>
+</Report>

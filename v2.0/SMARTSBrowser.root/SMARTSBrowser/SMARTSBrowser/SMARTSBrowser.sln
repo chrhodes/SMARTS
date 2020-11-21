@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\SMARTSBrowser\", "SMARTSBrowser", "{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/SMARTS/v2.0/SMARTSBrowser.root/SMARTSBrowser", IXSAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		Debug.AspNetCompiler.VirtualPath = "/SMARTSBrowser"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSBrowser\"
+		Debug.AspNetCompiler.TargetPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSBrowser\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SMARTSBrowser"
+		Release.AspNetCompiler.PhysicalPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSBrowser\"
+		Release.AspNetCompiler.TargetPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSBrowser\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4146"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SMARTSBrowserInstaller", "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSBrowser\SMARTSBrowserInstaller\SMARTSBrowserInstaller.vdproj", "{2A397D60-8428-42C7-A7AF-2AE2536CF54E}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = SMARTSBrowser
+		SccLocalPath1 = SMARTSBrowser
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = SMARTSBrowserInstaller\\SMARTSBrowserInstaller.vdproj
+		SccProjectName2 = \u0022$/SMARTS/v2.0/SMARTSBrowser.root/SMARTSBrowser/SMARTSBrowserInstaller\u0022,\u0020YYSAAAAA
+		SccLocalPath2 = SMARTSBrowserInstaller
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Debug|.NET.ActiveCfg = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Debug|.NET.Build.0 = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Release|.NET.ActiveCfg = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Release|.NET.Build.0 = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{7F77C7CD-B1C9-4D62-BB2F-39395BEE701B}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{2A397D60-8428-42C7-A7AF-2AE2536CF54E}.Debug|.NET.ActiveCfg = Debug
+		{2A397D60-8428-42C7-A7AF-2AE2536CF54E}.Debug|Any CPU.ActiveCfg = Debug
+		{2A397D60-8428-42C7-A7AF-2AE2536CF54E}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{2A397D60-8428-42C7-A7AF-2AE2536CF54E}.Release|.NET.ActiveCfg = Release
+		{2A397D60-8428-42C7-A7AF-2AE2536CF54E}.Release|Any CPU.ActiveCfg = Release
+		{2A397D60-8428-42C7-A7AF-2AE2536CF54E}.Release|Mixed Platforms.ActiveCfg = Release
+		{2A397D60-8428-42C7-A7AF-2AE2536CF54E}.Release|Mixed Platforms.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

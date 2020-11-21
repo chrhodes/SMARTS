@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMARTSVB", "SMARTSVB.vbproj", "{4335DED8-AEF0-47EF-AF25-7B27ED65B0A8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "mkc_ColorCombobox", "mkc_ColorCombobox\mkc_ColorCombobox.vbproj", "{3BE08B39-8895-4501-8ADB-D6C5F2889F0F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SMARTSVBInstaller", "SMARTSVBInstaller\SMARTSVBInstaller.vdproj", "{0CD5A740-4021-427D-87C9-487D1C5A4875}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccProjectUniqueName0 = SMARTSVB.vbproj
+		SccProjectName0 = .
+		SccAuxPath0 = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = mkc_ColorCombobox\\mkc_ColorCombobox.vbproj
+		SccProjectName1 = mkc_ColorCombobox
+		SccAuxPath1 = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccLocalPath1 = mkc_ColorCombobox
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = SMARTSVBInstaller\\SMARTSVBInstaller.vdproj
+		SccProjectName2 = SMARTSVBInstaller
+		SccAuxPath2 = http://lptfs.life.pacificlife.net:8080/tfs/defaultcollection
+		SccLocalPath2 = SMARTSVBInstaller
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4335DED8-AEF0-47EF-AF25-7B27ED65B0A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4335DED8-AEF0-47EF-AF25-7B27ED65B0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4335DED8-AEF0-47EF-AF25-7B27ED65B0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4335DED8-AEF0-47EF-AF25-7B27ED65B0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE08B39-8895-4501-8ADB-D6C5F2889F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE08B39-8895-4501-8ADB-D6C5F2889F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE08B39-8895-4501-8ADB-D6C5F2889F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE08B39-8895-4501-8ADB-D6C5F2889F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD5A740-4021-427D-87C9-487D1C5A4875}.Debug|Any CPU.ActiveCfg = Debug
+		{0CD5A740-4021-427D-87C9-487D1C5A4875}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

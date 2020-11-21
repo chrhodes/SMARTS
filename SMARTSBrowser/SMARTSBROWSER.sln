@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMARTSBROWSER", "http://localhost/SMARTS/SMARTSBROWSER/SMARTSBROWSER.vbproj", "{F781A440-858F-4B94-A7BC-3D12D733F728}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SmartStarBrowser", "SmartStarBrowser\SmartStarBrowser.vdproj", "{EBC75E55-261C-44B5-9CC2-486E4A9C0C18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SMARTSLIFEEAI603Browser", "SMARTSLIFEEAI603Browser\SMARTSLIFEEAI603Browser.vdproj", "{9EFAB1D8-FCA9-41E3-85B3-B09B924471A4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F781A440-858F-4B94-A7BC-3D12D733F728}.Debug.ActiveCfg = Debug|.NET
+		{F781A440-858F-4B94-A7BC-3D12D733F728}.Debug.Build.0 = Debug|.NET
+		{F781A440-858F-4B94-A7BC-3D12D733F728}.Release.ActiveCfg = Release|.NET
+		{F781A440-858F-4B94-A7BC-3D12D733F728}.Release.Build.0 = Release|.NET
+		{EBC75E55-261C-44B5-9CC2-486E4A9C0C18}.Debug.ActiveCfg = Release
+		{EBC75E55-261C-44B5-9CC2-486E4A9C0C18}.Release.ActiveCfg = Release
+		{9EFAB1D8-FCA9-41E3-85B3-B09B924471A4}.Debug.ActiveCfg = Release
+		{9EFAB1D8-FCA9-41E3-85B3-B09B924471A4}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

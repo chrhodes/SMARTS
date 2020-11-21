@@ -1,0 +1,2186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <RightMargin>1in</RightMargin>
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox10">
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <FontSize>18pt</FontSize>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingRight>2pt</PaddingRight>
+          <FontWeight>700</FontWeight>
+        </Style>
+        <ZIndex>2</ZIndex>
+        <Top>0.25in</Top>
+        <rd:DefaultName>textbox10</rd:DefaultName>
+        <Height>0.375in</Height>
+        <Width>5.375in</Width>
+        <CanGrow>true</CanGrow>
+        <Value>Life Division Application Tier Report</Value>
+      </Textbox>
+      <Table Name="table2">
+        <Height>1.84875in</Height>
+        <ZIndex>1</ZIndex>
+        <Style />
+        <Header>
+          <TableRows>
+            <TableRow>
+              <Height>0.375in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>76</ZIndex>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>SYSTEM</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox46">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <BorderColor>
+                          <Default>White</Default>
+                        </BorderColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>75</ZIndex>
+                      <rd:DefaultName>textbox46</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>BUSINESS OWNER</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox47">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>74</ZIndex>
+                      <rd:DefaultName>textbox47</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>IT RESPONSIBLE AREA</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox1">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>73</ZIndex>
+                      <rd:DefaultName>textbox1</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>IT TECH LEAD</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox28">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>72</ZIndex>
+                      <rd:DefaultName>textbox28</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>BUSINESS CRITICALITY</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox22">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>71</ZIndex>
+                      <rd:DefaultName>textbox22</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>FINANCIAL IMPACT</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox16">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>70</ZIndex>
+                      <rd:DefaultName>textbox16</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox63">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>69</ZIndex>
+                      <rd:DefaultName>textbox63</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox55">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>68</ZIndex>
+                      <rd:DefaultName>textbox55</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox52">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>67</ZIndex>
+                      <rd:DefaultName>textbox52</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox44">
+                      <ZIndex>66</ZIndex>
+                      <rd:DefaultName>textbox44</rd:DefaultName>
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BackgroundColor>Navy</BackgroundColor>
+                        <TextAlign>Left</TextAlign>
+                        <Color>White</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Height>0.22375in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Object_Name">
+                      <Style>
+                        <PaddingLeft>34pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>10</ZIndex>
+                      <rd:DefaultName>Object_Name</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Object_Name.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Business_Owner">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>9</ZIndex>
+                      <rd:DefaultName>Business_Owner</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Business_Owner.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="IT_Responsible_Area">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <rd:DefaultName>IT_Responsible_Area</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!IT_Responsible_Area.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="IT_Technical_Lead">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <rd:DefaultName>IT_Technical_Lead</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!IT_Technical_Lead.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION", Fields!Software_Language.Value, Fields!Data_Classification.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Security_Authorizers">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <rd:DefaultName>Security_Authorizers</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Security_Authorizers.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Security_Reviewers">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <rd:DefaultName>Security_Reviewers</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Security_Reviewers.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox8">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=IIF( Fields!Object_ShapeTypeName.Value="FILEREPORT"," ", Fields!Security_Internal_Security_DB.Value )</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox61">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <rd:DefaultName>textbox61</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION", Fields!Security_Externally_Facing.Value, IIF(Fields!Object_ShapeTypeName.Value="DATA", Fields!Platform.Value, " "))</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox15">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION",  Fields!Security_Point_of_Entry.Value," ")</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox20">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                          <Top>Solid</Top>
+                        </BorderStyle>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION", Fields!Platform.Value," " )</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <DataSetName>SmartDiagramming</DataSetName>
+        <Top>0.75in</Top>
+        <Width>24.125in</Width>
+        <TableGroups>
+          <TableGroup>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <Height>0.25in</Height>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox9">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>65</ZIndex>
+                          <rd:DefaultName>textbox9</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox69">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>64</ZIndex>
+                          <rd:DefaultName>textbox69</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox70">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>63</ZIndex>
+                          <rd:DefaultName>textbox70</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox3">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>62</ZIndex>
+                          <rd:DefaultName>textbox3</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox29">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>61</ZIndex>
+                          <rd:DefaultName>textbox29</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox23">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>60</ZIndex>
+                          <rd:DefaultName>textbox23</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox17">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>59</ZIndex>
+                          <rd:DefaultName>textbox17</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox64">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>58</ZIndex>
+                          <rd:DefaultName>textbox64</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox57">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>57</ZIndex>
+                          <rd:DefaultName>textbox57</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox56">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>56</ZIndex>
+                          <rd:DefaultName>textbox56</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox45">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>55</ZIndex>
+                          <rd:DefaultName>textbox45</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                </TableRow>
+                <TableRow>
+                  <Height>0.25in</Height>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="System_Name">
+                          <Style>
+                            <PaddingLeft>10pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>54</ZIndex>
+                          <rd:DefaultName>System_Name</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=Fields!System_Name.Value</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="System___Business_Owner">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>53</ZIndex>
+                          <rd:DefaultName>System___Business_Owner</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=First(Fields!System___Business_Owner.Value)</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="System___IT_Responsible_Area">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>52</ZIndex>
+                          <rd:DefaultName>System___IT_Responsible_Area</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=First(Fields!System___IT_Responsible_Area.Value)</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="System___IT_Technical_Lead">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>51</ZIndex>
+                          <rd:DefaultName>System___IT_Technical_Lead</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=First(Fields!System___IT_Technical_Lead.Value)</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="System___Business_Criticality">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>50</ZIndex>
+                          <rd:DefaultName>System___Business_Criticality</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=First(Fields!System___Business_Criticality.Value)</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="System___Financial_Impact">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>49</ZIndex>
+                          <rd:DefaultName>System___Financial_Impact</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=First(Fields!System___Financial_Impact.Value)</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox62">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>48</ZIndex>
+                          <rd:DefaultName>textbox62</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox65">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>47</ZIndex>
+                          <rd:DefaultName>textbox65</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox66">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>46</ZIndex>
+                          <rd:DefaultName>textbox66</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox67">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>45</ZIndex>
+                          <rd:DefaultName>textbox67</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox68">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightGrey</BackgroundColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>44</ZIndex>
+                          <rd:DefaultName>textbox68</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                </TableRow>
+              </TableRows>
+            </Header>
+            <Grouping Name="Sys">
+              <GroupExpressions>
+                <GroupExpression>=Fields!System_Name.Value</GroupExpression>
+              </GroupExpressions>
+            </Grouping>
+          </TableGroup>
+          <TableGroup>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <Height>0.25in</Height>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="Object_ShapeTypeName_1">
+                          <Style>
+                            <PaddingLeft>22pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>43</ZIndex>
+                          <rd:DefaultName>Object_ShapeTypeName_1</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=Fields!Object_ShapeTypeName.Value</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox31">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BorderColor>
+                              <Default>White</Default>
+                            </BorderColor>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>42</ZIndex>
+                          <rd:DefaultName>textbox31</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox21">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>41</ZIndex>
+                          <rd:DefaultName>textbox21</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox26">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>40</ZIndex>
+                          <rd:DefaultName>textbox26</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox27">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>39</ZIndex>
+                          <rd:DefaultName>textbox27</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox32">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>38</ZIndex>
+                          <rd:DefaultName>textbox32</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox33">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>37</ZIndex>
+                          <rd:DefaultName>textbox33</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox35">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>36</ZIndex>
+                          <rd:DefaultName>textbox35</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox58">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>35</ZIndex>
+                          <rd:DefaultName>textbox58</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox36">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>34</ZIndex>
+                          <rd:DefaultName>textbox36</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox37">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                          </Style>
+                          <ZIndex>33</ZIndex>
+                          <rd:DefaultName>textbox37</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                </TableRow>
+              </TableRows>
+            </Header>
+            <Grouping Name="Type">
+              <GroupExpressions>
+                <GroupExpression>=Fields!Object_ShapeTypeID.Value</GroupExpression>
+              </GroupExpressions>
+              <Parent>=Fields!System_Name.Value</Parent>
+            </Grouping>
+            <Visibility>
+              <ToggleItem>System_Name</ToggleItem>
+              <Hidden>true</Hidden>
+            </Visibility>
+          </TableGroup>
+          <TableGroup>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <Height>0.25in</Height>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox11">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>32</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox38">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>31</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>BUSINESS OWNER</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox39">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>30</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>IT RESPONSIBLE AREA</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox40">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>29</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>IT TECH LEAD</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox41">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>28</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <CanShrink>true</CanShrink>
+                          <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION","SOFTWARE LANGUAGE","DATA CLASSIFICATION")</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox42">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>27</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>SECURITY AUTHORIZERS</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox43">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>26</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>SECURITY REVIEWERS</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox51">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>25</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=IIF( Fields!Object_ShapeTypeName.Value="FILEREPORT"," ","SECURITY INTERNAL SECURITY DB")</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox59">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>24</ZIndex>
+                          <rd:DefaultName>textbox59</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION","SECURITY EXTERNALLY FACING",IIF(Fields!Object_ShapeTypeName.Value="DATA", "PLATFORM"," "))</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox53">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>23</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION","SECURITY POINT OF ENTRY"," ")</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox54">
+                          <Style>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <BackgroundColor>LightSteelBlue</BackgroundColor>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <BorderStyle>
+                              <Bottom>Solid</Bottom>
+                              <Top>Solid</Top>
+                            </BorderStyle>
+                            <TextAlign>Left</TextAlign>
+                            <PaddingBottom>2pt</PaddingBottom>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingRight>2pt</PaddingRight>
+                            <FontWeight>700</FontWeight>
+                          </Style>
+                          <ZIndex>22</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <Value>=IIF( Fields!Object_ShapeTypeName.Value="APPLICATION"," PLATFORM"," ")</Value>
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                </TableRow>
+              </TableRows>
+            </Header>
+            <Grouping Name="Obj">
+              <GroupExpressions>
+                <GroupExpression>=Fields!Object_ShapeTypeName.Value</GroupExpression>
+              </GroupExpressions>
+              <Parent>=Fields!System_Name.Value</Parent>
+            </Grouping>
+            <Visibility>
+              <ToggleItem>Object_ShapeTypeName_1</ToggleItem>
+              <Hidden>true</Hidden>
+            </Visibility>
+          </TableGroup>
+          <TableGroup>
+            <Header>
+              <TableRows>
+                <TableRow>
+                  <Height>0.25in</Height>
+                  <TableCells>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox4">
+                          <Style />
+                          <ZIndex>21</ZIndex>
+                          <rd:DefaultName>textbox4</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox5">
+                          <Style />
+                          <ZIndex>20</ZIndex>
+                          <rd:DefaultName>textbox5</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox12">
+                          <Style />
+                          <ZIndex>19</ZIndex>
+                          <rd:DefaultName>textbox12</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox13">
+                          <Style />
+                          <ZIndex>18</ZIndex>
+                          <rd:DefaultName>textbox13</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox18">
+                          <Style />
+                          <ZIndex>17</ZIndex>
+                          <rd:DefaultName>textbox18</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox19">
+                          <Style />
+                          <ZIndex>16</ZIndex>
+                          <rd:DefaultName>textbox19</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox24">
+                          <Style />
+                          <ZIndex>15</ZIndex>
+                          <rd:DefaultName>textbox24</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox30">
+                          <Style />
+                          <ZIndex>14</ZIndex>
+                          <rd:DefaultName>textbox30</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox60">
+                          <Style />
+                          <ZIndex>13</ZIndex>
+                          <rd:DefaultName>textbox60</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox48">
+                          <Style />
+                          <ZIndex>12</ZIndex>
+                          <rd:DefaultName>textbox48</rd:DefaultName>
+                          <CanGrow>true</CanGrow>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                    <TableCell>
+                      <ReportItems>
+                        <Textbox Name="textbox49">
+                          <Style />
+                          <ZIndex>11</ZIndex>
+                          <CanGrow>true</CanGrow>
+                          <rd:DefaultName>textbox49</rd:DefaultName>
+                          <Value />
+                        </Textbox>
+                      </ReportItems>
+                    </TableCell>
+                  </TableCells>
+                  <Visibility>
+                    <Hidden>true</Hidden>
+                  </Visibility>
+                </TableRow>
+              </TableRows>
+            </Header>
+            <Grouping Name="Hdr">
+              <GroupExpressions>
+                <GroupExpression>=Fields!Object_Name.Value</GroupExpression>
+              </GroupExpressions>
+              <Parent>=Fields!Object_ShapeTypeName.Value</Parent>
+            </Grouping>
+            <Visibility>
+              <ToggleItem>Object_ShapeTypeName_1</ToggleItem>
+              <Hidden>true</Hidden>
+            </Visibility>
+          </TableGroup>
+        </TableGroups>
+        <TableColumns>
+          <TableColumn>
+            <Width>2.75in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.375in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.125in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+      <Line Name="line1">
+        <Top>0.125in</Top>
+        <Height>0in</Height>
+        <Width>24.125in</Width>
+        <Style>
+          <BorderWidth>
+            <Default>12pt</Default>
+          </BorderWidth>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+      </Line>
+    </ReportItems>
+    <Style />
+    <Height>5.625in</Height>
+  </Body>
+  <TopMargin>1in</TopMargin>
+  <DataSources>
+    <DataSource Name="SmartDiagramming">
+      <rd:DataSourceID>831bcb8c-2b93-46c5-8a43-bb2247c7e9aa</rd:DataSourceID>
+      <DataSourceReference>SmartDiagramming</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <Width>32.125in</Width>
+  <DataSets>
+    <DataSet Name="SmartDiagramming">
+      <Fields>
+        <Field Name="System_Name">
+          <DataField>System Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System_ID">
+          <DataField>System ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Object_ShapeTypeID">
+          <DataField>Object ShapeTypeID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Object_ShapeTypeName">
+          <DataField>Object ShapeTypeName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Name">
+          <DataField>Object Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_ID">
+          <DataField>Object ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="System___Business_Owner">
+          <DataField>System - Business Owner</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___IT_Responsible_Area">
+          <DataField>System - IT Responsible Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___IT_Technical_Lead">
+          <DataField>System - IT Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___Business_Criticality">
+          <DataField>System - Business Criticality</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___Financial_Impact">
+          <DataField>System - Financial Impact</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Business_Owner">
+          <DataField>Business Owner</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Responsible_Area">
+          <DataField>IT Responsible Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Technical_Lead">
+          <DataField>IT Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Platform">
+          <DataField>Platform</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Software_Language">
+          <DataField>Software Language</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Authorizers">
+          <DataField>Security Authorizers</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Externally_Facing">
+          <DataField>Security Externally Facing</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Internal_Security_DB">
+          <DataField>Security Internal Security DB</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Point_of_Entry">
+          <DataField>Security Point of Entry</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Reviewers">
+          <DataField>Security Reviewers</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Data_Classification">
+          <DataField>Data Classification</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SmartDiagramming</DataSourceName>
+        <CommandText>DECLARE @intAbstraction_Object int
+DECLARE @intAbstraction_SystemObject int
+SET @intAbstraction_Object = (SELECT Abstraction_ID FROM Abstraction WHERE Abstraction_Name = 'OBJECT')
+SET @intAbstraction_SystemObject = (SELECT Abstraction_ID FROM Abstraction WHERE Abstraction_Name = 'SYSTEMOBJECT')
+
+CREATE TABLE #tmpTable
+(
+	[System Name] varchar(100),
+	[System ID] int,
+	[Object ShapeTypeID] int,
+	[Object ShapeTypeName] varchar(100),
+	[Object Name] varchar(100),	
+	[Object ID] int,
+	[System - Business Owner] varchar(100),
+	[System - IT Responsible Area] varchar(100),
+	[System - IT Technical Lead] varchar(100),
+	[System - Business Criticality] varchar(100),
+	[System - Financial Impact] varchar(100),
+	[Business Owner] varchar(100),
+	[IT Responsible Area] varchar(100),
+	[IT Technical Lead] varchar(100),
+	[Platform] varchar(100),
+	[Software Language] varchar(100),
+	[Security Authorizers] varchar(100),
+	[Security Externally Facing] varchar(100),
+	[Security Internal Security DB] varchar(100),
+	[Security Point of Entry] varchar(100),
+	[Security Reviewers] varchar(100),
+	[Data Classification] varchar(100)
+)
+
+
+DECLARE @Column_var varchar(100)
+DECLARE @Column_int int
+
+INSERT INTO #tmpTable
+SELECT 	@Column_var as [System_Name],
+	C.SD_ID_Container as [System_ID], 
+	ST.ShapeType_ID as [Object_ShapeTypeID],
+	ST.ShapeType_Name as [Object_ShapeTypeName],
+	[Shape_Name] as [Object_Name],
+	[Shape_ID] as [Object_ID],
+	@Column_var as [System - Business Owner],
+	@Column_var as [System - IT Responsible Area],
+	@Column_var as [System - IT Technical Lead],
+	@Column_var as [System - Business Criticality],
+	@Column_var as [System - Financial Statement Impact],
+	@Column_var as [Business Owner],
+	@Column_var as [IT Responsible Area],
+	@Column_var as [IT Technical Lead],
+	@Column_var as [Platform],
+	@Column_var as [Software Language],
+	@Column_var as [Security Authorizers],
+	@Column_var as [Security Externally Facing],
+	@Column_var as [Security Internal Security DB],
+	@Column_var as [Security Point of Entry],
+	@Column_var as [Security Reviewers],
+	@Column_var as [Data Classification]
+
+FROM Shape SC
+	LEFT JOIN ShapeType ST ON ST.ShapeType_ID = SC.ShapeType_ID 
+	LEFT JOIN Container C ON C.SD_ID_Contained = SC.Shape_ID AND C.Abstraction_ID = @intAbstraction_SystemObject
+WHERE ST.ShapeType_ID IN (SELECT ShapeType_ID FROM ShapeType WHERE ShapeType_Name IN ('APPLICATION', 'DATA', 'FILEREPORT'))
+
+UPDATE #tmpTable SET [System Name] = (SELECT Shape_Name FROM Shape WHERE Shape_ID = #tmpTable.[System ID])
+
+
+--- GET SYSTEMS ATTRIBUTES
+DECLARE @intShapeType_ID int
+SET @intShapeType_ID = (SELECT ShapeType_ID FROM ShapeType WHERE ShapeType_Name = 'SYSTEM')
+
+DECLARE @STA_ID int
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute 
+		WHERE ShapeType_ID = @intShapeType_ID
+			AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+						WHERE Attribute_Name = 'Business : Area Owner'))
+UPDATE #tmpTable SET [System - Business Owner] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE #tmpTable.[System ID] = AV.SD_ID AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute 
+		WHERE ShapeType_ID = @intShapeType_ID
+			AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+						WHERE Attribute_Name = 'IT : Responsible Area'))
+UPDATE #tmpTable SET [System - IT Responsible Area] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE #tmpTable.[System ID] = AV.SD_ID AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute 
+		WHERE ShapeType_ID = @intShapeType_ID
+			AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+						WHERE Attribute_Name = 'IT : Technical Lead'))
+UPDATE #tmpTable SET [System - IT Technical Lead] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE #tmpTable.[System ID] = AV.SD_ID AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute 
+		WHERE ShapeType_ID = @intShapeType_ID
+			AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+						WHERE Attribute_Name = 'Audit Info : Business Criticality'))
+UPDATE #tmpTable SET [System - Business Criticality] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE #tmpTable.[System ID] = AV.SD_ID AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute 
+		WHERE ShapeType_ID = @intShapeType_ID
+			AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+						WHERE Attribute_Name = 'Audit Info : Financial Statement Impact'))
+UPDATE #tmpTable SET [System - Financial Impact] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE #tmpTable.[System ID] = AV.SD_ID AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+
+--- OBJECT ATTRIBUTES
+DECLARE @A_ID int
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Business : Area Owner')
+UPDATE #tmpTable SET [Business Owner] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'IT : Responsible Area')
+UPDATE #tmpTable SET [IT Responsible Area] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'IT : Technical Lead')
+UPDATE #tmpTable SET [IT Technical Lead] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Platform')
+UPDATE #tmpTable SET [Platform] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Software : Language(s)')
+UPDATE #tmpTable SET [Software Language] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Security : Authorizers')
+UPDATE #tmpTable SET [Security Authorizers] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Security : Externally Facing')
+UPDATE #tmpTable SET [Security Externally Facing] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Security : Internal Security DB')
+UPDATE #tmpTable SET [Security Internal Security DB] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Security : Point of Entry')
+UPDATE #tmpTable SET [Security Point of Entry] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Security : Reviewers')
+UPDATE #tmpTable SET [Security Reviewers] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SET @A_ID = (SELECT Attribute_ID FROM Attribute WHERE Attribute_Name = 'Data : Classification')
+UPDATE #tmpTable SET [Data Classification] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = 
+			(SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+				WHERE  ShapeType_ID = #tmpTable.[Object ShapeTypeID]
+				AND Attribute_ID = @A_ID))
+
+SELECT * FROM #tmpTable ORDER BY [System Name], [Object ShapeTypeName], [Object Name]
+
+--- CLEAN IT UP
+DROP TABLE #tmpTable</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+    <DataSet Name="LDTR_Applications">
+      <Fields>
+        <Field Name="System_Name">
+          <DataField>System Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System_ID">
+          <DataField>System ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Object_ShapeTypeID">
+          <DataField>Object ShapeTypeID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Object_ShapeTypeName">
+          <DataField>Object ShapeTypeName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Name">
+          <DataField>Object Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_ID">
+          <DataField>Object ID</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="System___Business_Owner">
+          <DataField>System - Business Owner</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___IT_Responsible_Area">
+          <DataField>System - IT Responsible Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___IT_Technical_Lead">
+          <DataField>System - IT Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___Business_Criticality">
+          <DataField>System - Business Criticality</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System___Financial_Impact">
+          <DataField>System - Financial Impact</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Business_Owner">
+          <DataField>Business Owner</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Responsible_Area">
+          <DataField>IT Responsible Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="IT_Technical_Lead">
+          <DataField>IT Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Platform">
+          <DataField>Platform</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Software_Language">
+          <DataField>Software Language</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Authorizers">
+          <DataField>Security Authorizers</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Externally_Facing">
+          <DataField>Security Externally Facing</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Internal_Security_DB">
+          <DataField>Security Internal Security DB</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Point_of_Entry">
+          <DataField>Security Point of Entry</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Security_Reviewers">
+          <DataField>Security Reviewers</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Data_Classification">
+          <DataField>Data Classification</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SmartDiagramming</DataSourceName>
+        <CommandText>DECLARE @intAbstraction_Object int
+DECLARE @intAbstraction_SystemObject int
+SET @intAbstraction_Object = (SELECT Abstraction_ID FROM Abstraction WHERE Abstraction_Name = 'OBJECT')
+SET @intAbstraction_SystemObject = (SELECT Abstraction_ID FROM Abstraction WHERE Abstraction_Name = 'SYSTEMOBJECT')
+
+CREATE TABLE #tmpTable
+(
+	[System Name] varchar(100),
+	[System ID] int,
+	[Object ShapeTypeID] int,
+	[Object ShapeTypeName] varchar(100),
+	[Object Name] varchar(100),	
+	[Object ID] int,
+	[System - Business Owner] varchar(100),
+	[System - IT Responsible Area] varchar(100),
+	[System - IT Technical Lead] varchar(100),
+	[System - Business Criticality] varchar(100),
+	[System - Financial Impact] varchar(100),
+	[Business Owner] varchar(100),
+	[IT Responsible Area] varchar(100),
+	[IT Technical Lead] varchar(100),
+	[Platform] varchar(100),
+	[Software Language] varchar(100),
+	[Security Authorizers] varchar(100),
+	[Security Externally Facing] varchar(100),
+	[Security Internal Security DB] varchar(100),
+	[Security Point of Entry] varchar(100),
+	[Security Reviewers] varchar(100),
+	[Data Classification] varchar(100)
+)
+
+
+DECLARE @Column_var varchar(100)
+DECLARE @Column_int int
+
+INSERT INTO #tmpTable
+SELECT 	@Column_var as [System_Name],
+	C.SD_ID_Container as [System_ID], 
+	ST.ShapeType_ID as [Object_ShapeTypeID],
+	ST.ShapeType_Name as [Object_ShapeTypeName],
+	[Shape_Name] as [Object_Name],
+	[Shape_ID] as [Object_ID],
+	@Column_var as [System - Business Owner],
+	@Column_var as [System - IT Responsible Area],
+	@Column_var as [System - IT Technical Lead],
+	@Column_var as [System - Business Criticality],
+	@Column_var as [System - Financial Statement Impact],
+	@Column_var as [Business Owner],
+	@Column_var as [IT Responsible Area],
+	@Column_var as [IT Technical Lead],
+	@Column_var as [Platform],
+	@Column_var as [Software Language],
+	@Column_var as [Security Authorizers],
+	@Column_var as [Security Externally Facing],
+	@Column_var as [Security Internal Security DB],
+	@Column_var as [Security Point of Entry],
+	@Column_var as [Security Reviewers],
+	@Column_var as [Data Classification]
+
+FROM Shape SC
+	LEFT JOIN ShapeType ST ON ST.ShapeType_ID = SC.ShapeType_ID 
+	LEFT JOIN Container C ON C.SD_ID_Contained = SC.Shape_ID AND C.Abstraction_ID = @intAbstraction_SystemObject
+WHERE ST.ShapeType_ID IN (SELECT ShapeType_ID FROM ShapeType WHERE ShapeType_Name = 'APPLICATION')
+
+UPDATE #tmpTable SET [System Name] = (SELECT Shape_Name FROM Shape WHERE Shape_ID = #tmpTable.[System ID])
+
+
+--- GET SYSTEMS ATTRIBUTES
+DECLARE @intShapeType_ID int
+SET @intShapeType_ID = (SELECT ShapeType_ID FROM ShapeType WHERE ShapeType_Name = 'APPLICATION')
+
+--- OBJECT ATTRIBUTES
+DECLARE @STA_ID int
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Business : Area Owner'))
+UPDATE #tmpTable SET [Business Owner] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'IT : Responsible Area'))
+UPDATE #tmpTable SET [IT Responsible Area] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'IT : Technical Lead'))
+UPDATE #tmpTable SET [IT Technical Lead] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Platform'))
+UPDATE #tmpTable SET [Platform] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Software : Language(s)'))
+UPDATE #tmpTable SET [Software Language] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Security : Authorizers'))
+UPDATE #tmpTable SET [Security Authorizers] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Security : Externally Facing'))
+UPDATE #tmpTable SET [Security Externally Facing] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Security : Internal Security DB'))
+UPDATE #tmpTable SET [Security Internal Security DB] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Security : Point of Entry'))
+UPDATE #tmpTable SET [Security Point of Entry] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+SET @STA_ID = (SELECT ShapeTypeAttribute_ID FROM ShapeTypeAttribute
+		WHERE  ShapeType_ID = @intShapeType_ID
+		AND Attribute_ID = (SELECT Attribute_ID FROM Attribute 
+					WHERE Attribute_Name = 'Security : Reviewers'))
+UPDATE #tmpTable SET [Security Reviewers] = 
+	(SELECT AttributeValue_Value FROM AttributeValue AV
+		WHERE AV.SD_ID = #tmpTable.[Object ID] AND AV.ShapeTypeAttribute_ID = @STA_ID)
+
+
+SELECT * FROM #tmpTable ORDER BY [System Name], [Object ShapeTypeName], [Object Name]
+
+--- CLEAN IT UP
+DROP TABLE #tmpTable</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>1in</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:ReportID>1d81d229-529d-4a26-b7a6-565f8f37df17</rd:ReportID>
+  <BottomMargin>1in</BottomMargin>
+  <Language>en-US</Language>
+</Report>

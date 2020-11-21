@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\SMARTSAdmin\", "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSAdmin", "{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/SMARTS/v2.0/SMARTSAdmin.root/SMARTSAdmin", CTSAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		Debug.AspNetCompiler.VirtualPath = "/SMARTSAdmin"
+		Debug.AspNetCompiler.PhysicalPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSAdmin\"
+		Debug.AspNetCompiler.TargetPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSAdmin\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SMARTSAdmin"
+		Release.AspNetCompiler.PhysicalPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSAdmin\"
+		Release.AspNetCompiler.TargetPath = "C:\Inetpub\wwwroot\SMARTS\v2.0\SMARTSAdmin\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1732"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SMARTSAdminInstaller", "SMARTSAdminInstaller\SMARTSAdminInstaller.vdproj", "{EEE82BE2-62D4-4358-AB48-F8A403844DEA}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SccWebProject1 = true
+		SccProjectUniqueName1 = .
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectEnlistmentChoice1 = 2
+		SccProjectUniqueName2 = SMARTSAdminInstaller\\SMARTSAdminInstaller.vdproj
+		SccLocalPath2 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = SMARTSAdminInstaller\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Debug|.NET.ActiveCfg = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Debug|.NET.Build.0 = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Release|.NET.ActiveCfg = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Release|.NET.Build.0 = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{E3792A57-95A8-4D7A-91CF-EF65BFDE3909}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{EEE82BE2-62D4-4358-AB48-F8A403844DEA}.Debug|.NET.ActiveCfg = Debug
+		{EEE82BE2-62D4-4358-AB48-F8A403844DEA}.Debug|Any CPU.ActiveCfg = Debug
+		{EEE82BE2-62D4-4358-AB48-F8A403844DEA}.Debug|Mixed Platforms.ActiveCfg = Debug
+		{EEE82BE2-62D4-4358-AB48-F8A403844DEA}.Release|.NET.ActiveCfg = Release
+		{EEE82BE2-62D4-4358-AB48-F8A403844DEA}.Release|Any CPU.ActiveCfg = Release
+		{EEE82BE2-62D4-4358-AB48-F8A403844DEA}.Release|Mixed Platforms.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

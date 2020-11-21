@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMARTSAdmin", "http://localhost/SMARTS/SMARTSAdmin/SMARTSAdmin.vbproj", "{16606546-2977-402C-9CC3-3F7A35A11168}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SMARTSStaging", "SMARTSStaging\SMARTSStaging.vdproj", "{6AAD3B68-C3D2-439F-9C7C-4E56997074D6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SmartStarAdmin", "SmartStarAdmin\SmartStarAdmin.vdproj", "{B64BE166-1965-4C9B-A428-8B74D5E8483B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SMARTSLIFEEAI603Admin", "SMARTSLIFEEAI603Admin\SMARTSLIFEEAI603Admin.vdproj", "{A84734B2-ECDF-4CBB-8DD1-63FBAE990B54}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectName0 = \u0022$/SMARTS/SMARTSAdmin\u0022,\u0020RQBAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = true
+		SolutionUniqueID = {90DBD86F-E062-4620-A854-279CE43EFC38}
+		SccProjectUniqueName1 = SMARTSStaging\\SMARTSStaging.vdproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection1 = SMARTSStaging\\
+		SccProjectUniqueName2 = SMARTSLIFEEAI603Admin\\SMARTSLIFEEAI603Admin.vdproj
+		SccLocalPath2 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection2 = SMARTSLIFEEAI603Admin\\
+		SccProjectUniqueName3 = SmartStarAdmin\\SmartStarAdmin.vdproj
+		SccLocalPath3 = .
+		CanCheckoutShared = true
+		SccProjectFilePathRelativizedFromConnection3 = SmartStarAdmin\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{16606546-2977-402C-9CC3-3F7A35A11168}.Debug.ActiveCfg = Debug|.NET
+		{16606546-2977-402C-9CC3-3F7A35A11168}.Debug.Build.0 = Debug|.NET
+		{16606546-2977-402C-9CC3-3F7A35A11168}.Release.ActiveCfg = Debug|.NET
+		{16606546-2977-402C-9CC3-3F7A35A11168}.Release.Build.0 = Debug|.NET
+		{6AAD3B68-C3D2-439F-9C7C-4E56997074D6}.Debug.ActiveCfg = Release
+		{6AAD3B68-C3D2-439F-9C7C-4E56997074D6}.Release.ActiveCfg = Release
+		{B64BE166-1965-4C9B-A428-8B74D5E8483B}.Debug.ActiveCfg = Release
+		{B64BE166-1965-4C9B-A428-8B74D5E8483B}.Release.ActiveCfg = Release
+		{A84734B2-ECDF-4CBB-8DD1-63FBAE990B54}.Debug.ActiveCfg = Debug
+		{A84734B2-ECDF-4CBB-8DD1-63FBAE990B54}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <RightMargin>1in</RightMargin>
+  <Body>
+    <ReportItems>
+      <Table Name="table1">
+        <ZIndex>1</ZIndex>
+        <Style />
+        <Header>
+          <TableRows>
+            <TableRow>
+              <Height>0.25in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox2">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>System Name</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox3">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox4">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Height>0.25in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox5">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <DataSetName>SmartDiagramming</DataSetName>
+        <Top>0.625in</Top>
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <Height>0.25in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="System_Name">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <rd:DefaultName>System_Name</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=First(Fields!System_Name.Value)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox9">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <rd:DefaultName>textbox9</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox10">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <rd:DefaultName>textbox10</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Footer>
+        <TableColumns>
+          <TableColumn>
+            <Width>7.20833in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>7.20833in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>7.20833in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+      <Textbox Name="textbox1">
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <FontFamily>Times New Roman</FontFamily>
+          <BackgroundColor>LightGrey</BackgroundColor>
+          <BorderWidth>
+            <Bottom>3pt</Bottom>
+          </BorderWidth>
+          <BorderColor>
+            <Bottom>Black</Bottom>
+          </BorderColor>
+          <BorderStyle>
+            <Bottom>Solid</Bottom>
+          </BorderStyle>
+          <FontSize>18pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <Color>Navy</Color>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingRight>2pt</PaddingRight>
+          <FontWeight>700</FontWeight>
+        </Style>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Height>0.33in</Height>
+        <Width>20in</Width>
+        <CanGrow>true</CanGrow>
+        <Value>System Level Shapes</Value>
+      </Textbox>
+    </ReportItems>
+    <Style />
+    <Height>1.375in</Height>
+  </Body>
+  <TopMargin>1in</TopMargin>
+  <DataSources>
+    <DataSource Name="SmartDiagramming">
+      <rd:DataSourceID>7641ece1-36ec-44f0-a221-50f7d7530815</rd:DataSourceID>
+      <DataSourceReference>SmartDiagramming</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <Width>21.625in</Width>
+  <DataSets>
+    <DataSet Name="SmartDiagramming">
+      <Fields>
+        <Field Name="System_Name">
+          <DataField>System Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Name">
+          <DataField>Object Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System_IT_Area">
+          <DataField>System IT Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="System_Technical_Lead">
+          <DataField>System Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Type">
+          <DataField>Object Type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_IT_Area">
+          <DataField>Object IT Area</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Object_Technical_Lead">
+          <DataField>Object Technical Lead</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SmartDiagramming</DataSourceName>
+        <CommandText>SELECT DISTINCT 
+                      vwSystemLevel.shapecontainer_name AS [System Name], vwSystemLevel.shapecontained_name AS [Object Name], 
+                      AV2.AttributeValue_Value AS [System IT Area], AV1.AttributeValue_Value AS [System Technical Lead], 
+                      vwSystemLevel.shapecontained_type AS [Object Type], AV4.AttributeValue_Value AS [Object IT Area], 
+                      AV3.AttributeValue_Value AS [Object Technical Lead]
+FROM         vwSystemLevel LEFT OUTER JOIN
+                      AttributeValue AV1 ON vwSystemLevel.shapecontainer_id = AV1.SD_ID AND AV1.SDTable_ID = 4 AND 
+                      AV1.SD_ID = vwSystemLevel.shapecontainer_id AND AV1.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontainer_id) AND Attribute_ID = 39) LEFT OUTER JOIN
+                      AttributeValue AV2 ON vwSystemLevel.shapecontainer_id = AV2.SD_ID AND AV2.SDTable_ID = 4 AND 
+                      AV2.SD_ID = vwSystemLevel.shapecontainer_id AND AV2.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontainer_id) AND Attribute_ID = 3) LEFT OUTER JOIN
+                      AttributeValue AV3 ON vwSystemLevel.shapecontained_id = AV3.SD_ID AND AV3.SDTable_ID = 4 AND 
+                      AV3.SD_ID = vwSystemLevel.shapecontained_id AND AV3.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontained_id) AND Attribute_ID = 39) LEFT OUTER JOIN
+                      AttributeValue AV4 ON vwSystemLevel.shapecontained_id = AV4.SD_ID AND AV4.SDTable_ID = 4 AND 
+                      AV4.SD_ID = vwSystemLevel.shapecontained_id AND AV4.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontained_id) AND Attribute_ID = 3)</CommandText>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>1in</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:ReportID>d5753ff4-bba7-422f-908f-5d86da3cf3f9</rd:ReportID>
+  <BottomMargin>1in</BottomMargin>
+  <Language>en-US</Language>
+</Report>

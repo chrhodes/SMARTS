@@ -1,0 +1,100 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+
+
+ <asp:DataGrid runat="server" SkinId="gridviewSkin"
+        Style="width: 100%; text-align: left;" 
+        BorderWidth="1" ItemStyle-HorizontalAlign="Left" ItemStyle-Font-Size="10pt" HeaderStyle-HorizontalAlign="center"
+        HeaderStyle-Font-Bold="True" HeaderStyle-Font-Size="10pt" AutoGenerateColumns="False"
+        HeaderStyle-ForeColor="#ffffff" HeaderStyle-BackColor="#000099">
+    <Columns>
+        <asp:BoundColumn ItemStyle-Width="100%" HeaderStyle-Width="100%" HeaderText="Description"
+                HeaderStyle-HorizontalAlign="center" ItemStyle-HorizontalAlign="Left" DataField="Shape_Desc">
+        </asp:BoundColumn>
+    </Columns>
+</asp:DataGrid>
+
+--%>
+
+<asp:DataGrid runat="server" SkinId="gridviewName"
+        BorderWidth="1px" Style="width: 100%" HeaderStyle-Font-Size="10pt"
+        HeaderStyle-BackColor="#FF3366" HeaderStyle-ForeColor="#ffffff" ItemStyle-Font-Size="10pt"
+        HeaderStyle-Font-Bold="True" HeaderStyle-HorizontalAlign="left" 
+        AutoGenerateColumns="False">
+    <Columns>
+        <asp:BoundColumn HeaderText="Name" DataField="Shape_Name"></asp:BoundColumn>
+    </Columns>
+</asp:DataGrid>
+
+<asp:DataGrid runat="server" SkinId="gridviewName2" 
+    BorderWidth="1px" Style="width: 100%" HeaderStyle-Font-Size="10pt"
+    HeaderStyle-BackColor="#000099" HeaderStyle-ForeColor="#ffffff" ItemStyle-HorizontalAlign="left"
+    ItemStyle-Font-Size="10pt" HeaderStyle-Font-Bold="True" HeaderStyle-HorizontalAlign="left"
+    AutoGenerateColumns="False">
+    <Columns>
+        <asp:BoundColumn HeaderText="Name" HeaderStyle-Width="40%" ItemStyle-Width="40%"
+            DataField="Principal_Name"></asp:BoundColumn>
+        <asp:BoundColumn HeaderText="Type" HeaderStyle-Width="30%" ItemStyle-Width="30%"
+            DataField="Principal_TypeName"></asp:BoundColumn>
+        <asp:TemplateColumn HeaderText="Container" HeaderStyle-Width="40%" ItemStyle-Width="40%">
+            <ItemTemplate>
+            </ItemTemplate>
+        </asp:TemplateColumn>
+    </Columns>
+</asp:DataGrid>
+
+ <asp:DataGrid runat="server" SkinId="gridviewDescription"
+        Style="width: 100%; text-align: left;" 
+        BorderWidth="1" ItemStyle-HorizontalAlign="Left" ItemStyle-Font-Size="10pt" HeaderStyle-HorizontalAlign="left"
+        HeaderStyle-Font-Bold="True" HeaderStyle-Font-Size="10pt" AutoGenerateColumns="False"
+        HeaderStyle-ForeColor="#ffffff" HeaderStyle-BackColor="#FF3366">
+    <Columns>
+        <asp:BoundColumn ItemStyle-Width="100%" HeaderStyle-Width="100%" HeaderText="Description"
+                HeaderStyle-HorizontalAlign="left" ItemStyle-HorizontalAlign="Left" DataField="Shape_Desc">
+        </asp:BoundColumn>
+    </Columns>
+</asp:DataGrid>
+
+<asp:DataGrid runat="server" SkinId="gridviewLifeCycle"
+        BorderWidth="1px" Style="width: 100%" HeaderStyle-Font-Size="10pt"
+        HeaderStyle-BackColor="#FF3366" HeaderStyle-ForeColor="#ffffff" ItemStyle-Font-Size="10pt"
+        HeaderStyle-Font-Bold="True" HeaderStyle-HorizontalAlign="left" 
+        AutoGenerateColumns="False">
+    <Columns>
+        <asp:BoundColumn HeaderText="LifeCycle" DataField="Lifecycle_Name"></asp:BoundColumn>
+    </Columns>
+</asp:DataGrid>
+
+<asp:DataGrid runat="server" SkinId="gridviewAttributes"
+    BorderWidth="1px" Style="width: 100%" HeaderStyle-Font-Size="10pt"
+    HeaderStyle-BackColor="#FF3366" HeaderStyle-ForeColor="#ffffff" ItemStyle-Font-Size="10pt"
+    HeaderStyle-Font-Bold="True" HeaderStyle-HorizontalAlign="left" 
+    AutoGenerateColumns="False">
+    <Columns>
+        <asp:BoundColumn HeaderText="Attribute" DataField="Attribute_Name" ItemStyle-HorizontalAlign="Left" ></asp:BoundColumn>
+        <asp:TemplateColumn HeaderStyle-Font-Size="10pt" HeaderStyle-Width="43%" HeaderStyle-BackColor="#FF3366"
+            HeaderStyle-ForeColor="#ffffff" ItemStyle-Font-Size="10pt" HeaderStyle-Font-Bold="True"
+            HeaderStyle-HorizontalAlign="left" HeaderText="Value" ItemStyle-HorizontalAlign="Left" >
+            <ItemTemplate>
+                <asp:HyperLink runat="server" SkinId="gridviewAttributes"
+                        Target="_blank" 
+                        NavigateUrl="" >
+                </asp:HyperLink>
+                <asp:Label runat="server" Text="" SkinId="gridviewAttributes" >
+                </asp:Label>
+            </ItemTemplate>
+        </asp:TemplateColumn>
+    </Columns>
+</asp:DataGrid>

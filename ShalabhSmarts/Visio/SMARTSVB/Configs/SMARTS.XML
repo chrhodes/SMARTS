@@ -1,0 +1,15 @@
+<SMARTS>
+<WebURLObject>"http://SMARTS/SMARTSBrowser/object.aspx"</WebURLObject>
+<WebURLSystem>"http://SMARTS/SMARTSBrowser/sys.aspx"</WebURLSystem>
+<WebURLDevice>"http://SMARTS/SMARTSBrowser/device.aspx"</WebURLDevice>
+<WebURLStep>"http://SMARTS/SMARTSBrowser/step.aspx"</WebURLStep>
+<WebURLBusinessProcess>"http://SMARTS/SMARTSBrowser/businessprocess.aspx"</WebURLBusinessProcess>
+<WebURLRelation>"http://SMARTS/SMARTSBrowser/relation.aspx"</WebURLRelation>
+<StencilBusinessProcess>BusinessProcess.vss</StencilBusinessProcess>
+<StencilSystem>System.vss</StencilSystem>
+<StencilInfrastructure>Infrastructure.vss</StencilInfrastructure>
+  <!--<DBConnection>"server='LIFEDBA01C\DIVISIONDB'; database=SmartDiagramming;User Id=SmartsUser;Password=L3dZ3pp3l1n2;"</DBConnection>-->
+<DBConnection>"server='LIFEEAI603\TEAM'; database=SmartDiagramming;User Id=eai;Password=st@rt100206;"</DBConnection>
+</SMARTS>
+
+

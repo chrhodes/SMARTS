@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SmartsBrowser.BaseClass">
+    <Position X="5.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAAEAAAAAAAAABEAAAAAgAEAACAAAQABAACAAAA=</HashCode>
+      <FileName>BaseClass.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartsBrowser.List">
+    <Position X="5.5" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEBAAAAAAAAAAAAADAAAAAAABAgAAEAIAAEA=</HashCode>
+      <FileName>List.aspx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartsBrowser._Object">
+    <Position X="15.25" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAABBAACAEAAAAABADAAAAAAAhAADAARIQAEA=</HashCode>
+      <FileName>Object.aspx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartsBrowser.Relation">
+    <Position X="8.75" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAABBAAAAEAAAAAAADAAAAAAABAABAARIAAEA=</HashCode>
+      <FileName>Relation.aspx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartsBrowser.Reports">
+    <Position X="12" Y="5.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAABAAAAgAAAIAAAQDAAABAEABAAAAQAIAAEA=</HashCode>
+      <FileName>Reports.aspx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartsBrowser.Result">
+    <Position X="5.5" Y="10.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAADAAAAACABAAAAAAIAAEA=</HashCode>
+      <FileName>Result.aspx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartsBrowser._Step">
+    <Position X="12" Y="10.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAiAAAAAABBAAAAEAAAAABADAAAAAAAhAADAARIQAEA=</HashCode>
+      <FileName>Step.aspx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartsBrowser.Sys">
+    <Position X="8.75" Y="10.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAABBAAAAEAAAAABADAAAAAgAhAABAARIAAEA=</HashCode>
+      <FileName>Sys.aspx.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SMARTSCommon", "SMARTSCommon.vbproj", "{25A8D4BB-BC8F-4DC7-8F30-050EBD93EF05}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		CanCheckoutShared = true
+		SccProjectUniqueName1 = SMARTSCommon.vbproj
+		SccLocalPath1 = .
+		CanCheckoutShared = true
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25A8D4BB-BC8F-4DC7-8F30-050EBD93EF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A8D4BB-BC8F-4DC7-8F30-050EBD93EF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A8D4BB-BC8F-4DC7-8F30-050EBD93EF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A8D4BB-BC8F-4DC7-8F30-050EBD93EF05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

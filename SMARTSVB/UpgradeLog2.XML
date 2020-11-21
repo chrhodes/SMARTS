@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SMARTSVB">
+</Property><Property Name="Solution File" Value="C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\SMARTSVB.sln">
+</Property><Property Name="Date" Value="Tuesday, April 17, 2012">
+</Property><Property Name="Time" Value="14:22 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SMARTSVB.sln" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\SMARTSVB.sln">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="SMARTSVB.vbproj" Description="Project file successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\SMARTSVB.vbproj">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="SMARTSVB.vbproj.user" Description="Project user file successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\SMARTSVB.vbproj.user">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="AssemblyInfo.vb" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="BaseClass.vb" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\BaseClass.vb">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="frmEditVisio.vb" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmEditVisio.vb">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="frmRelateShape.vb" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmRelateShape.vb">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="frmRelateShapes.vb" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmRelateShapes.vb">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="frmRetrieveShape.vb" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmRetrieveShape.vb">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="frmValidate.vb" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmValidate.vb">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="ListViewItemComparer.vb" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\ListViewItemComparer.vb">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="Startup.vb" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\Startup.vb">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="App.config" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\App.config">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="BaseClass.resx" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\BaseClass.resx">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="frmEditVisio.resx" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmEditVisio.resx">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="frmRelateShape.resx" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmRelateShape.resx">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="frmRelateShapes.resx" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmRelateShapes.resx">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="frmRetrieveShape.resx" Description="File successfully backed up as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmRetrieveShape.resx">
+</Event><Event ErrorLevel="2" Project="SMARTSVB" Source="frmValidate.resx" Description="Failed to backup file as C:\TFS\Playground\crhodes\SMARTS\SMARTSVB\Backup1\frmValidate.resx">
+</Event><Event ErrorLevel="1" Project="SMARTSVB" Source="SMARTSVB.vbproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="SMARTSVB.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SMARTSVB" Source="SMARTSVB.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SMARTSVB.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SMARTSVB.sln" Description="Converted">
+</Event><Event ErrorLevel="1" Project="SMARTSVB" Source="App.config" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="SMARTSVB" Source="App.config" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="SMARTSVB" Source="frmRelateShape.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="SMARTSVB" Source="frmRelateShape.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="SMARTSVB" Source="frmRelateShapes.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="SMARTSVB" Source="frmRelateShapes.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="SMARTSVB" Source="frmValidate.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="SMARTSVB" Source="frmValidate.vb" Description="Not Converted">
+</Event><Event ErrorLevel="1" Project="SMARTSVB" Source="ListViewItemComparer.vb" Description="File not found.  Unable to determine whether the file requires upgrade.">
+</Event><Event ErrorLevel="3" Project="SMARTSVB" Source="ListViewItemComparer.vb" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="SMARTSVB" Source="SMARTSVB.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

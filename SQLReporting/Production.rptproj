@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <State>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SourceControl xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Enabled&gt;false&lt;/Enabled&gt;
+  &lt;ProjectName /&gt;
+  &lt;AuxPath /&gt;
+  &lt;LocalPath /&gt;
+  &lt;Provider /&gt;
+&lt;/SourceControl&gt;</State>
+  <DataSources>
+    <ProjectItem>
+      <Name>SmartDiagramming.rds</Name>
+      <FullPath>SmartDiagramming.rds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <Reports>
+    <ProjectItem>
+      <Name>Business Process Relations.rdl</Name>
+      <FullPath>Business Process Relations.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Business Process Shapes.rdl</Name>
+      <FullPath>Business Process Shapes.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Enterprise.rdl</Name>
+      <FullPath>Enterprise.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Infrastructure Relations.rdl</Name>
+      <FullPath>Infrastructure Relations.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Infrastructure Shapes.rdl</Name>
+      <FullPath>Infrastructure Shapes.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>System Relations.rdl</Name>
+      <FullPath>System Relations.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>System Shapes.rdl</Name>
+      <FullPath>System Shapes.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Life Division Critical System List.rdl</Name>
+      <FullPath>Life Division Critical System List.rdl</FullPath>
+    </ProjectItem>
+  </Reports>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>Production</TargetFolder>
+        <OverwriteDataSources>true</OverwriteDataSources>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DebugLocal</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>Production</TargetFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <TargetFolder>Production</TargetFolder>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

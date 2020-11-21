@@ -1,0 +1,17 @@
+<VisioSMARTS>
+  <WebURLObject>"http://localhost/SMARTSBrowser/object.aspx"</WebURLObject>
+  <WebURLSystem>"http://localhost/SMARTSBrowser/sys.aspx"</WebURLSystem>
+  <WebURLDevice>"http://localhost/SMARTSBrowser/device.aspx"</WebURLDevice>
+  <WebURLStep>"http://localhost/SMARTSBrowser/step.aspx"</WebURLStep>
+  <WebURLBusinessProcess>"http://localhost/SMARTSBrowser/businessprocess.aspx"</WebURLBusinessProcess>
+  <WebURLRelation>"http://localhost/SMARTSBrowser/relation.aspx"</WebURLRelation>
+  <StencilBusinessProcess>BusinessProcess.vss</StencilBusinessProcess>
+  <StencilSystem>System.vss</StencilSystem>
+  <StencilInfrastructure>Infrastructure.vss</StencilInfrastructure>
+  <!--<DBConnection>"server='LIFEDBA01C\DIVISIONDB'; database=SmartDiagramming;User Id=SmartsUser;Password=L3dZ3pp3l1n2;"</DBConnection>-->
+  <!--<DBConnection>"server='LIFEDBA201C,1433'; database=SmartDiagramming;User Id=SmartsUser;Password=SmartsUser"</DBConnection>-->
+  <!--<DBConnection>"server='TRON'; database=SmartDiagramming;User Id=SmartsUser;Password=SmartsUser"</DBConnection>-->
+  <DBConnection>"server='PARTHENON'; database=SmartDiagramming;User Id=SmartsUser;Password=SmartsUser"</DBConnection>
+</VisioSMARTS>
+
+

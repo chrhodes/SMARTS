@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2003/10/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <RightMargin>1in</RightMargin>
+  <Body>
+    <ReportItems>
+      <Textbox Name="textbox1">
+        <Style>
+          <PaddingLeft>2pt</PaddingLeft>
+          <FontFamily>Times New Roman</FontFamily>
+          <BackgroundColor>LightGrey</BackgroundColor>
+          <BorderWidth>
+            <Bottom>3pt</Bottom>
+            <Top>3pt</Top>
+          </BorderWidth>
+          <BorderColor>
+            <Bottom>DarkBlue</Bottom>
+            <Top>DarkBlue</Top>
+          </BorderColor>
+          <BorderStyle>
+            <Bottom>Solid</Bottom>
+            <Top>Solid</Top>
+          </BorderStyle>
+          <FontSize>18pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <Color>DarkBlue</Color>
+          <PaddingBottom>2pt</PaddingBottom>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingRight>2pt</PaddingRight>
+          <FontWeight>700</FontWeight>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Height>0.33in</Height>
+        <CanGrow>true</CanGrow>
+        <Value>Infrastructure Shapes</Value>
+      </Textbox>
+      <Table Name="table1">
+        <Height>0.46in</Height>
+        <Style>
+          <BorderWidth>
+            <Top>3pt</Top>
+          </BorderWidth>
+          <BorderColor>
+            <Top>DarkBlue</Top>
+          </BorderColor>
+          <BorderStyle>
+            <Top>Solid</Top>
+          </BorderStyle>
+        </Style>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <Height>0.24in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox2">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>11</ZIndex>
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Infrastructure</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox3">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>10</ZIndex>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Infrastructure Type</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox5">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>9</ZIndex>
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Infrastructure Business Contact</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox4">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Infrastructure Container</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Container Type</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>LightGrey</BackgroundColor>
+                        <BorderWidth>
+                          <Bottom>3pt</Bottom>
+                        </BorderWidth>
+                        <BorderColor>
+                          <Bottom>DarkBlue</Bottom>
+                        </BorderColor>
+                        <BorderStyle>
+                          <Bottom>Solid</Bottom>
+                        </BorderStyle>
+                        <FontSize>12pt</FontSize>
+                        <Color>DarkBlue</Color>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                        <FontWeight>700</FontWeight>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>Container Business Contact</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+          <RepeatOnNewPage>true</RepeatOnNewPage>
+        </Header>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <Height>0.22in</Height>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Infrastructure">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <rd:DefaultName>Infrastructure</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Infrastructure.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Infrastructure_Type">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <rd:DefaultName>Infrastructure_Type</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Infrastructure_Type.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Infrastructure_Business_Contact">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <rd:DefaultName>Infrastructure_Business_Contact</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Infrastructure_Business_Contact.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Infrastructure_Container">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <rd:DefaultName>Infrastructure_Container</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Infrastructure_Container.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Container_Type">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <rd:DefaultName>Container_Type</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Container_Type.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Container_Business_Contact">
+                      <Style>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <FontFamily>Times New Roman</FontFamily>
+                        <BackgroundColor>=iif(RowNumber(Nothing) Mod 2, "WhiteSmoke", "White")</BackgroundColor>
+                        <PaddingBottom>2pt</PaddingBottom>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingRight>2pt</PaddingRight>
+                      </Style>
+                      <rd:DefaultName>Container_Business_Contact</rd:DefaultName>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Container_Business_Contact.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <DataSetName>SmartDiagramming</DataSetName>
+        <Top>0.33in</Top>
+        <TableColumns>
+          <TableColumn>
+            <Width>2in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>1.5in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.5in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>2.5in</Width>
+          </TableColumn>
+        </TableColumns>
+      </Table>
+    </ReportItems>
+    <Style />
+    <Height>1.04in</Height>
+  </Body>
+  <TopMargin>1in</TopMargin>
+  <DataSources>
+    <DataSource Name="SmartDiagramming">
+      <rd:DataSourceID>11e82557-d496-4210-8e0a-f7eb323eccb5</rd:DataSourceID>
+      <DataSourceReference>SmartDiagramming</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <Width>12.5in</Width>
+  <DataSets>
+    <DataSet Name="SmartDiagramming">
+      <Fields>
+        <Field Name="Infrastructure">
+          <DataField>Infrastructure</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Infrastructure_Type">
+          <DataField>Infrastructure Type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Infrastructure_Business_Contact">
+          <DataField>Infrastructure Business Contact</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Infrastructure_Container">
+          <DataField>Infrastructure Container</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Container_Type">
+          <DataField>Container Type</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Container_Business_Contact">
+          <DataField>Container Business Contact</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>SmartDiagramming</DataSourceName>
+        <CommandText>SELECT DISTINCT 
+                      vwInfrastructureLevel.shapecontained_name AS Infrastructure, vwInfrastructureLevel.shapecontained_type AS [Infrastructure Type], 
+                      AV1.AttributeValue_Value AS [Infrastructure Business Contact], vwInfrastructureLevel.shapecontainer_name AS [Infrastructure Container], 
+                      vwInfrastructureLevel.shapecontainer_type AS [Container Type], AV2.AttributeValue_Value AS [Container Business Contact]
+FROM         vwInfrastructureLevel LEFT OUTER JOIN
+                      AttributeValue AV1 ON vwInfrastructureLevel.shapecontained_id = AV1.SD_ID AND AV1.SDTable_ID = 4 AND 
+                      AV1.SD_ID = vwInfrastructureLevel.shapecontained_id AND AV1.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      Attribute_ID = 1 AND ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontained_id)) LEFT OUTER JOIN
+                      AttributeValue AV2 ON vwInfrastructureLevel.shapecontainer_id = AV2.SD_ID AND AV2.SDTable_ID = 4 AND 
+                      AV2.SD_ID = vwInfrastructureLevel.shapecontainer_id AND AV2.ShapeTypeAttribute_ID =
+                          (SELECT     ShapeTypeAttribute_ID
+                            FROM          ShapeTypeAttribute
+                            WHERE      Attribute_ID = 1 AND ShapeType_ID =
+                                                       (SELECT     ShapeType_ID
+                                                         FROM          Shape
+                                                         WHERE      Shape_ID = shapecontainer_id))
+ORDER BY vwInfrastructureLevel.shapecontained_name</CommandText>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <LeftMargin>1in</LeftMargin>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <rd:ReportID>8e432613-957c-4519-bf4d-7b13f8c0d7ff</rd:ReportID>
+  <BottomMargin>1in</BottomMargin>
+  <Language>en-US</Language>
+</Report>
